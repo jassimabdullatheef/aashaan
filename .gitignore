@@ -60,3 +60,29 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# ------------------------------------------------------------
+# Personal health data: never commit (this repo is public)
+# ------------------------------------------------------------
+data/
+profile.md
+journal/*
+!journal/README.md
+reports/
+trends/
+plans/
+advice/
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+token*.json
+.claude/settings.local.json
+
+# Local tooling
+.venv/
+__pycache__/
+.DS_Store
